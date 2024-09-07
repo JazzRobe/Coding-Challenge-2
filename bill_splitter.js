@@ -16,3 +16,12 @@ function calculateTip(bill) {
 };
  
 console.log(calculateTip(100));
+
+
+// Task 4: Utilize Arrays
+
+let bills = [275, 40, 430];
+const tips = bills.map(bill => calculateTip(bill));
+let totals = bills.map(bill => bill + tip);
+
+console.log(totals); // I don't know what I'm doing.
